@@ -1,0 +1,43 @@
+site_name: Разработване на Web-приложения с използване на Python
+site_url: https://sitename.example
+theme:
+  name: material
+  font:
+    code: Red Hat Mono
+  palette: 
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+    
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+  features:
+    - content.code.copy
+
+nav:
+  - 'Web Framework': index.md
+  - 'HTTP': http.md
+  - 'HTTPS': https.md
+  - 'Django': introDjango.md
+  - 'Инсталиране на Django': setupDjango.md
+  - 'Първо Django приложение': startApplication.md
+  - 'Структура на Djsngo проект': djangoProjectStructure
+  - 'MVT': mvt.md
+  - 'WSGI, ASGI': wsgi_asgi.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
