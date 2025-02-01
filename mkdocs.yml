@@ -26,7 +26,8 @@ nav:
   - 'Django': introDjango.md
   - 'Инсталиране на Django': setupDjango.md
   - 'Първо Django приложение': startApplication.md
-  - 'Структура на Djsngo проект': djangoProjectStructure
+  - 'Структура на Djаngo проект': djangoProjectStructure.md
+  - 'Структура на Djаngo App': djangoAppStructure.md
   - 'MVT': mvt.md
   - 'WSGI, ASGI': wsgi_asgi.md
 
